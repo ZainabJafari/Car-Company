@@ -1,6 +1,13 @@
-import React from 'react'
+"use client"
+import { CarProps } from '@/types'
+import CustomButton from './CustomButton'
 
-const CarCard = () => {
+interface CarCardProps {
+  car: CarCardProps
+}
+
+const CarCard = ({ car }: CarProps) => {
+
   return (
     <div>
       cardaa
