@@ -40,7 +40,7 @@ export interface CarCardProps {
 export interface CustomButtonProps {
   isDisabled?: boolean;
   btnType?: "button" | "submit";
-  containerStyles?: string;
+  containerStyle?: string;
   textStyles?: string;
   title: string;
   rightIcon?: string;
@@ -63,6 +63,6 @@ export interface ShowMoreProps {
 }
 
 export interface SearchManuFacturerProps {
-  manufacturer: string;
+ setManufacturer: string;
   setManuFacturer: (manufacturer: string) => void;
 }
