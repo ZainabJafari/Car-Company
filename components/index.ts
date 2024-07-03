@@ -16,6 +16,7 @@ export {
     SearchBar,
     CustomFilter,
     SearchManuFacturer,
+    CarCard,
     CardDetails
     
 

@@ -5,7 +5,7 @@ import {Combobox, ComboboxButton, ComboboxInput, ComboboxOption, ComboboxOptions
 import Image from "next/image"
 import { Fragment, useState } from "react"
 
-const SearchManuFacturer = ({manufacturer, setManufacturer} : SearchManuFacturerProps) => {
+const SearchManuFacturer = ({manufacturer, setManuFacturer} : SearchManuFacturerProps) => {
     const [query, setQuery] = useState('')
 
     const filteredManufacturers = 
@@ -20,7 +20,7 @@ const SearchManuFacturer = ({manufacturer, setManufacturer} : SearchManuFacturer
   return (
 
     <div className="search-manufacturer">
-        <Combobox value={manufacturer} onChange={setManufacturer}>
+        <Combobox value={manufacturer} onChange={setManuFacturer}>
             <div className="relative w-full">
                 <ComboboxButton className='absolute top-[14px]'>
                     <Image src='/' 
