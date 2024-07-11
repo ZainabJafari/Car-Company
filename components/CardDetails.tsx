@@ -45,7 +45,7 @@ const CardDetails = ({isOpen, closeModal, car}: CarDetailsProps) => {
                   onClick={closeModal}
                 >
                   <Image
-                    src='/'
+                    src='/close.svg'
                     alt='close'
                     width={20}
                     height={20}
