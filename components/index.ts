@@ -7,6 +7,7 @@ import CustomFilter from './CustomFilter'
 import SearchManuFacturer from './SearchManuFacturer'
 import CarCard from './CarCard'
 import CardDetails from './CardDetails'
+import ShowMore from './ShowMore'
 
 export {
     Hero,
@@ -17,7 +18,8 @@ export {
     CustomFilter,
     SearchManuFacturer,
     CarCard,
-    CardDetails
+    CardDetails,
+    ShowMore,
     
 
 } 
